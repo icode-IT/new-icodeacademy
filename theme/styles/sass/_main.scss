@@ -277,6 +277,8 @@ section {
 	}
 }
 .share-program {
+	padding: 40px; 
+
     h1 {
         margin-bottom: 20px;
         font-weight: 700;
@@ -319,6 +321,22 @@ section {
                 -moz-transform: scale(1.5);
                 transition: all 200ms ease-in;
                 transform: scale(1.5);
+            }
+
+            i.fa-facebook {
+            	color:#3C599F;
+            }
+            i.fa-twitter {
+            	color:#32CCFE;
+            }
+            i.fa-instagram {
+            	color:#A1755C;
+            }
+            i.fa-google-plus {
+            	color:#E54D26;
+            }
+            i.fa-linkedin {
+            	color:#0085AE;
             }
         }
     }
@@ -464,7 +482,7 @@ section {
 	h3 {
 		text-align: center;
 		margin: 0em 0 1em;
-		color: $pink;
+		color: $blue;
 	}
 }
 .border-divider {
