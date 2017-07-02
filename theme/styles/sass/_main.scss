@@ -131,7 +131,7 @@ section {
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgba(255,255,255,0.4);
-    padding-left: 20px;
+    // padding-left: 20px;
     padding-right: 20px;
     max-width: 400px;
 }
@@ -245,7 +245,15 @@ section {
 		position: relative;
 		background-color: #555;
 		min-height: 350px;
-
+		background-image: url('http://img.youtube.com/vi/nKIu9yen5nc/0.jpg');
+		background-position: 100%;
+		img {
+			position: absolute;
+			right: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 		.play-video {
 			background-color: #fff;
 			width: 50px;
