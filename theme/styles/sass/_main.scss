@@ -77,12 +77,32 @@ section {
 	font-size: 2.02729rem;
 
 	&.custom-heading {
-		background-color:$yellow;
 		max-width: 300px;
 	    height: 30px;
     	line-height: 30px;
     	margin-left:auto;
     	margin-right:auto;
+
+    	&:before {
+    		content: "";
+		    display: block;
+		    background: $yellow;
+		    height: 40px;
+		    position: absolute;
+		    width: 300px;
+		    z-index: 1;
+		    -webkit-transform: rotate(-3deg);
+		    -moz-transform: rotate(-3deg);
+		    -ms-transform: rotate(-3deg);
+		    -o-transform: rotate(-3deg);
+		    transform: rotate(-3deg);
+		    z-index: 1;
+    	}
+
+    	span {
+    		position: relative;
+    		z-index: 2;
+    	}
 	}
 }
 .section-heading-text {
