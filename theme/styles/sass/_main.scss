@@ -53,7 +53,7 @@ section {
 	padding: 60px 0;
 }
 .pt0 {
-	padding-top: 0;
+	padding-top: 0 !important;
 }
 .pb0 {
 	padding-bottom: 0;
@@ -259,37 +259,39 @@ section {
 		max-width: 800px;
 		margin: 0 auto 20px;
 	}
-	.video-block {
-		padding: 30px 0 15px;
-		h4 {
-			padding: 0 30px;
-			max-width: 800px;
-			margin: 0 auto 30px;
-			line-height: 25px;
-		}
-		.video-container {
-			margin-bottom: 15px;
-			position: relative;
-			background-color: #c6c6c6;
-			.video-inner {
-				padding: 30%;
+}
 
-				.video-object {
-					position: absolute;
-					left: 0;
-					top: 0;
-					right: 0;
-					bottom: 0;
+.video-block {
+	padding: 30px 0 15px;
+	h4 {
+		padding: 0 30px;
+		max-width: 800px;
+		margin: 0 auto 30px;
+		line-height: 25px;
+	}
+	.video-container {
+		margin-bottom: 15px;
+		position: relative;
+		background-color: #c6c6c6;
+		.video-inner {
+			padding: 30%;
+
+			.video-object {
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				width: 100%;
+				iframe {
 					width: 100%;
-					iframe {
-						width: 100%;
-						height: 100%;
-					}
+					height: 100%;
 				}
 			}
 		}
 	}
 }
+
 .why-code-section {
 	.video-wrapper {
 		position: relative;
