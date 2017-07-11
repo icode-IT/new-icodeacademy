@@ -14,6 +14,19 @@ var icode = (function() {
 		});
 	}
 
+	if($('#image-preview').length > 0) {
+		$.ajax({
+	        type:'GET',
+	        url: 'http://vimeo.com/api/v2/video/60767036.json',
+	        jsonp: 'callback',
+	        dataType: 'jsonp',
+	        success: function(data){
+	            var thumbnail_src = data[0].thumbnail_large;
+	            $('#image-preview').append('<img src="' + thumbnail_src + '"/>');
+	        }
+	    });
+	}
+
 	return {
 		init: init
 	};

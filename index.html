@@ -54,14 +54,14 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-left pull-right">
                     <li>
                         <a href="ourvision.html">Our Vision</a>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="courses.html">Courses
                         <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu pull-left">
                             <li><a href="http://icodeacademy.ph/courses.html#design-technology-track">Design Technology Track</a></li>
                             <li><a href="http://icodeacademy.ph/courses.html#technology-entrepreneurship-track">Technology Entrepreneurship Track</a></li>
                             <li><a href="http://icodeacademy.ph/courses.html#scientific-discovery-computing-track">Scientific Discovery Computing Track</a></li>
@@ -169,8 +169,31 @@
     		<div class="row">
     			<div class="col-sm-10 col-sm-offset-1">
     				<h1 class="rt-heading">Why Computer Science?</h1>
-    				<p>At iCode Academy, we believe that programming is as important as reading and writing in this increasingly digital world.We aim to support the growth and empowerment of children by helping them gain both the skills and confidence to become responsible digital creators who make a positive difference in their chosen areas of interest.</p>
+    				<p>At iCode Academy, we We promote a broad study of computer science subjects and its wide range of applications.  We believe that an engaging, relevant, and project-based curriculum provides students with foundational 21st century skills and competencies as well as motivates them to innovate, be creative and to solve problems.</p>
     				<p>To support our goals, we offer fun and engaging programs that introduce and immerse children into the world of computer science and its possibilities.</p>
+
+                    <div class="row video-block">
+                        <h4>Computer Science is collaborating across all disciplines, expanding exponentially across industries, and changing everything in 21st century</h4>
+                        <div class="col-sm-6">
+                            <div class="video-container">
+                                <div class="video-inner">
+                                    <div class="video-object">
+                                        <iframe src="https://www.youtube.com/embed/dNo_BVzNb28" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="video-container">
+                                <div class="video-inner">
+                                    <div class="video-object">
+                                        <iframe src="https://www.youtube.com/embed/QvyTEx1wyOY" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 					<a href="ourvision.html" class="btn btn-default">Learn more about us</a>
     			</div>
     		</div>
@@ -186,8 +209,8 @@
     				<div class="row intro-row">
     					<div class="col-sm-7">
     						<div class="video-wrapper">
-    							<span class="play-video"><i class="fa fa-play"></i></span>
-    							<div id="video-player"></div>
+                                <div id="image-preview"></div>
+    							<button class="view-video-vimeo" data-toggle="modal" data-target="#why-code-modal">Play Video</button>
     						</div>
     					</div>
     					<div class="col-sm-5 text-left">
@@ -195,7 +218,7 @@
 
 							<p>Learning to program empowers children by giving them confidence as they learn to communicate and command computers.</p>
 
-							<p>Children begin to see that it is possible to become digital creators instead of simply being digital consumers, thereby, allowing them to contribute, make a difference and express their creativity through technology in their chosen areas of interest.</p>
+							<p>Children begin to see that it is possible to become digital creators instead of simply being digital consumers, thereby, allowing them to contribute, make a difference and express their creativity through technology.</p>
     					</div>
     				</div>
     			</div>
@@ -203,7 +226,7 @@
     	</div>
     </section>
 
-    <section class="share-program bg-grey">
+    <!-- <section class="share-program bg-grey">
         <div class="container text-center">
             <h1 class="rt-heading">Follow Us On:</h1>
             
@@ -218,29 +241,28 @@
 
             <p>We're ready to connect with you</p>
         </div>
-    </section>
+    </section> -->
 
     <footer>
     	<section class="footer-top pt0">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-5">
                         <div class="widget">
                             <h4>Contact Us</h4>
                             <ul>
-                                <li><a href="#"><i class="fa fa-location-arrow"></i> <div class="contact-info">Valle Verde 2 Clubhouse Function Room, Lily Street, Pasig</div></a></li>
-                                <li><a href="#"><i class="fa fa-phone"></i> <div class="contact-info">0918 6583150</div></a></li>
+                                <li><a href="#"><i class="fa fa-location-arrow"></i> <div class="contact-info">Level 10-1 One Global Place, 5th Ave. & 25th Street, Bonifacio Global City, Taguig 1632</div></a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i> <div class="contact-info">+63.918.658.3150</div></a></li>
                                 <li><a href="#"><i class="fa fa-envelope"></i> <div class="contact-info">info@icodeacademy.com.ph</div></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-md-offset-1">
                         <div class="widget center">
                             <h4>Useful Links</h4>
                             <ul>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Who We Are</a></li>
-                                <li><a href="#">Terms and Private Policy</a></li>
                                 <li><a href="#">Our Services</a></li>
                             </ul>
                         </div>
@@ -249,19 +271,8 @@
                         <div class="widget right">
                             <h4>Programs</h4>
                             <ul>
-                                <li><a href="http://icodeacademy.ph/courses.html">Computer Science Academic Courses</a></li>
-                                <li><a href="#">Computer Science Extracurricular Courses</a></li>
-                                <li><a href="http://icodeacademy.ph/courses.html">Coding Workshops &amp; Camps</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="widget right">
-                            <h4>Courses</h4>
-                            <ul>
-                                <li><a href="#">Design Technology Track</a></li>
-                                <li><a href="#">Technology Entrepreneurship Track</a></li>
-                                <li><a href="#">Scientific Discovery Computing Track</a></li>
+                                <li><a href="http://icodeacademy.ph/courses.html">Academic Courses</a></li>
+                                <li><a href="#">Extracurricular Courses</a></li>
                             </ul>
                         </div>
                     </div>
@@ -269,9 +280,28 @@
             </div>
         </section>
     	<img src="theme/images/iCodeAcademy.png" class="img-responsive icode-logo">
-    	<p> &copy; 2017. ICodeAcademy. All Rights Reserved.</p>
+    	<p> &copy; 2017. iCode Academy. All Rights Reserved.</p>
     </footer>
 
+    <div id="why-code-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content clearfix">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">What Most Schools Don&#039;t Teach</h4>
+                </div>
+                <div class="modal-body clearfix">
+                    <div id="video-player-modal" class="clearfix">
+                        <div class="video-player-inner">
+                            <iframe src="https://player.vimeo.com/video/60767036" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<!-- SCRIPTS START -->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>

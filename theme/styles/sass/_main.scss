@@ -259,14 +259,54 @@ section {
 		max-width: 800px;
 		margin: 0 auto 20px;
 	}
+	.video-block {
+		padding: 30px 0 15px;
+		h4 {
+			padding: 0 30px;
+			max-width: 800px;
+			margin: 0 auto 30px;
+			line-height: 25px;
+		}
+		.video-container {
+			margin-bottom: 15px;
+			position: relative;
+			background-color: #c6c6c6;
+			.video-inner {
+				padding: 30%;
+
+				.video-object {
+					position: absolute;
+					left: 0;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					width: 100%;
+					iframe {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
 }
 .why-code-section {
 	.video-wrapper {
 		position: relative;
 		background-color: #555;
-		min-height: 350px;
-		background-image: url('http://img.youtube.com/vi/nKIu9yen5nc/0.jpg');
+		padding: 28%;
 		background-position: 100%;
+		#image-preview {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+
+			img {
+				max-width: 100%;
+			}
+		}
 		img {
 			position: absolute;
 			right: 0;
@@ -274,25 +314,46 @@ section {
 			width: 100%;
 			height: 100%;
 		}
-		.play-video {
-			background-color: #fff;
-			width: 50px;
-			height: 50px;
+		.view-video-vimeo {
+			background-color: #ee6047;
+			width: auto;
+			height: 40px;
+			border:0;
+			padding: 0 20px;
 			display: block;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%,-50%);
-			border-radius: 50%;
-			cursor: pointer;
-			i {
-				color: $pink;
-				font-size: 24px;
-				line-height: 50px;
-				position: relative;
-				left: 2px;
+			border-radius: 20px;
+			font-size: 14px;
+			color: #fff;
+			outline: none;
+
+			&:hover {
+				background-color: #fff;
+				color: #ee6047;
 			}
 		}
+		// .play-video {
+		// 	background-color: #fff;
+		// 	width: 50px;
+		// 	height: 50px;
+		// 	display: block;
+		// 	position: absolute;
+		// 	top: 50%;
+		// 	left: 50%;
+		// 	transform: translate(-50%,-50%);
+		// 	border-radius: 50%;
+		// 	cursor: pointer;
+		// 	i {
+		// 		color: $pink;
+		// 		font-size: 24px;
+		// 		line-height: 50px;
+		// 		position: relative;
+		// 		left: 2px;
+		// 	}
+		// }
 		iframe {
 			width: 100%;
 			height: 100%;
@@ -709,3 +770,19 @@ footer {
 }
 
 
+#why-code-modal {
+	#video-player-modal {
+		position: relative;
+
+		.video-player-inner {
+			padding-top: 56.34%;
+
+			iframe {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
