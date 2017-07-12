@@ -842,10 +842,16 @@ footer {
 }
 
 .minecraft-modding {
+    -moz-box-shadow: inset 0px 30px 30px #ffffff;
+    -webkit-box-shadow: inset 0px 30px 30px #ffffff;
+    box-shadow: inset 0px 30px 30px #ffffff;
+}
+
+.minecraft-modding, .game-programming, .web-design {
 	.btn-fix {
 		.btn {
 			border-color:transparent;
-			background-color:$yellow;
+			background-color:$blue;
 			color: $white;
 
 			&:hover {
