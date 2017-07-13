@@ -12,11 +12,13 @@ $screen-lg: 1240px;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 // Fonts
 $font-base:			Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $font-primary:		'Montserrat', $font-base;
 $font-opensans:		'Open Sans', $font-base;
+$font-sourcesans:	'Source Sans Pro', $font-base;
 
 // Micro clearfix
 // http://nicolasgallagher.com/micro-clearfix-hack/

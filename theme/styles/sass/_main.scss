@@ -52,6 +52,9 @@ a {
 section {
 	padding: 60px 0;
 }
+.mt0 {
+	margin-top: 5px !important;
+}
 .pt0 {
 	padding-top: 0 !important;
 }
@@ -71,7 +74,13 @@ section {
 .text-dark {
 	color:#333;
 }
-
+.text-wide {
+	font-family: $font-sourcesans;
+	p {
+		font-size: 1.4em;
+		line-height: 36px;	
+	}
+}
 .bg-grey {
 	background-color: #f6f6f6;
 }
