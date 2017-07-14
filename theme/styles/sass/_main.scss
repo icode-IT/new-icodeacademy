@@ -74,13 +74,6 @@ section {
 .text-dark {
 	color:#333;
 }
-.text-wide {
-	font-family: $font-sourcesans;
-	p {
-		font-size: 1.4em;
-		line-height: 36px;	
-	}
-}
 .bg-grey {
 	background-color: #f6f6f6;
 }
@@ -847,6 +840,33 @@ footer {
 		border-radius: 20px;
 		padding: 30px;
 		color: #333;
+	}
+}
+
+.add-indent {
+	p {
+		text-indent: 3em;
+	}
+}
+.vision-text {
+	h1 {
+		margin-top: 0;
+	}
+}
+.same-height {
+	display: flex;
+
+	.fix-height-bg-1 {
+		background: url(../images/2084.jpg);
+		background-size: cover;
+		background-repeat: top right;
+		background-position: center;
+	}
+	.fix-height-bg-2 {
+		background: url(../images/O6T56N0.jpg);
+		background-size: cover;
+		background-repeat: top right;
+		background-position: center;
 	}
 }
 
