@@ -870,6 +870,23 @@ footer {
 	}
 }
 
+.comp-sci {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	li {
+	    flex: 1 1 33.33%;
+		box-sizing: border-box;
+		padding: 10px;
+		font-weight: normal;
+		border: 1px solid #e5e5e5;
+		margin: 5px;
+ 	}
+}
+
 // .minecraft-modding {
 //     -moz-box-shadow: inset 0px 30px 30px #ffffff;
 //     -webkit-box-shadow: inset 0px 30px 30px #ffffff;
